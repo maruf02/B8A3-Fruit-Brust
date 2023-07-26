@@ -18,6 +18,53 @@
         <!-- ****************************Banner******************************** -->
         <!-- Banner section start -->
         <!-- navbar start -->
+        <nav class="container mx-auto pt-6  lg:w-3/4">
+
+            <div class=" navbar bg-[#F85559]  lg:rounded-3xl lg:h-32 ">
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-white">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-start flex justify-between ">
+                    <div class="flex relative lg:left-1/4">
+                        <img src="images/logo.png" alt="">
+                        <a class="btn btn-ghost normal-case text-white lg:text-4xl">Fruit Burst</a>
+                    </div>
+                    <div class="dropdown relative left-3/4 ">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </label>
+
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <div class=" lg:hidden form-control relative bg-white lg:rounded-3xl w-10">
+                                <input type="text" placeholder="Search"
+                                    class="input input-bordered w-full  bg-white rounded-3xl" />
+                            </div>
+                            <li><a>Item 1</a></li>
+                            <li><a>Parent</a></li>
+                            <li><a>Item 3</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="hidden md:hidden lg:block form-control relative bg-white md:w-48 lg:rounded-3xl lg:w-96">
+                    <input type="text" placeholder="Search"
+                        class="input input-bordered w-full  bg-white lg:rounded-3xl" />
+
+                </div>
+            </div>
+
+        </nav>
         <!-- navbar Ends -->
         <!-- slider Start -->
         <section class="pt-14 pb-10 rounded   lg:pb-28 container mx-auto lg:w-3/4">
@@ -928,6 +975,7 @@
         </div>
 
     </footer>
+
 </body>
 
 </html>
